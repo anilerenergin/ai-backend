@@ -3,7 +3,7 @@ from fastapi import FastAPI, Depends, Form, Query, UploadFile, File, HTTPExcepti
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
-from .. import models, database, schemas, utils, fal_api, auth
+from app import models, database, schemas, utils, fal_api, auth
 from .utils import decode_token
 import io
 from PIL import Image
