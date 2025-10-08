@@ -1,0 +1,27 @@
+# FastAPI + server
+fastapi
+uvicorn[standard]
+
+# File uploads & HTTP
+python-multipart
+requests
+aiohttp
+
+# Database / ORM (supports either SQLModel or direct SQLAlchemy usage)
+sqlmodel
+sqlalchemy
+
+# Auth / security
+passlib[bcrypt]
+bcrypt==4.3.0
+python-jose[cryptography]
+
+# Environment variables
+python-dotenv
+
+# Image helpers (optional, useful if you inspect/resize images)
+Pillow
+
+# AI API
+
+fal_client
