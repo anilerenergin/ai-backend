@@ -43,10 +43,14 @@ It supports:
 ## ⚙️ Installation & Setup
 
 
+```env
 python -m venv venv
+
 pip install --upgrade -r requirements.txt
+
 uvicorn app.main:app --port 3434 --reload
 
+```
 # Example `.env` file
 
 ```env
